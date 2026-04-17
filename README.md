@@ -1,6 +1,6 @@
 # Mobile Password Client for Safeguard 
 
-A Flutter application for secure account and password management with Oneidentity Safeguard for Privileged Passwords integration.
+A Flutter application for secure account and password management with One Identity Safeguard for Privileged Passwords integration.
 
 ## Disclaimer
 

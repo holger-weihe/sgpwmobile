@@ -1,0 +1,6 @@
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/doppelstern_1024.png"
+  # Minimum size required for iOS is 1024x1024
+  min_sdk_android: 21

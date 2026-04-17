@@ -111,6 +111,47 @@ Main dependencies used by the app:
 - The package is currently configured with `publish_to: 'none'` in `pubspec.yaml`.
 - Customize `assets/images/` and configuration files before publishing.
 
+## Screenshots
+
+| Screenshot | Screenshot |
+| --- | --- |
+| <div align="center"><img src="assets/APITest.png" width="180" alt="APITest.png" /><br/>APITest.png</div> | <div align="center"><img src="assets/AccountDetails.png" width="180" alt="AccountDetails.png" /><br/>AccountDetails.png</div> |
+| <div align="center"><img src="assets/AccountManagement.png" width="180" alt="AccountManagement.png" /><br/>AccountManagement.png</div> | <div align="center"><img src="assets/CertificateSetup.png" width="180" alt="CertificateSetup.png" /><br/>CertificateSetup.png</div> |
+| <div align="center"><img src="assets/CreateAccount.png" width="180" alt="CreateAccount.png" /><br/>CreateAccount.png</div> | <div align="center"><img src="assets/LoginScreen.png" width="180" alt="LoginScreen.png" /><br/>LoginScreen.png</div> |
+| <div align="center"><img src="assets/OfflineListView.png" width="180" alt="OfflineListView.png" /><br/>OfflineListView.png</div> | <div align="center"><img src="assets/OnlineTreeView.png" width="180" alt="OnlineTreeView.png" /><br/>OnlineTreeView.png</div> |
+| <div align="center"><img src="assets/PasswordSetup.png" width="180" alt="PasswordSetup.png" /><br/>PasswordSetup.png</div> | <div align="center"><img src="assets/SafeguardSetup.png" width="180" alt="SafeguardSetup.png" /><br/>SafeguardSetup.png</div> |
+
+## License
+
+- `lib/` - main application code
+  - `main.dart` - app entry point
+  - `models/` - data model definitions
+  - `screens/` - UI screens and navigation
+  - `services/` - backend, storage, and security services
+- `assets/` - app assets and images
+- `android/`, `ios/`, `windows/`, `macos/`, `linux/` - platform-specific projects
+
+## Dependencies
+
+Main dependencies used by the app:
+- `flutter_secure_storage`
+- `sqflite`
+- `local_auth`
+- `webview_flutter`
+- `dio`
+- `http`
+- `encrypt`
+- `pointycastle`
+- `file_picker`
+- `intl`
+
+- requires access to an instance of the "One Identity Safeguard Privileged Password" appliance
+
+## Notes
+
+- The package is currently configured with `publish_to: 'none'` in `pubspec.yaml`.
+- Customize `assets/images/` and configuration files before publishing.
+
 ## License
 
 Add your license information here if you want to open source the project.

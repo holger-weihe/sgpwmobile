@@ -4,7 +4,7 @@ A Flutter application for secure account and password management with Oneidentit
 
 ## Disclaimer
 
-This app is provides as-is with no support. This is a private project and has not releation to One Identity except that the app requires access to an instance of the Safeguard Privileged Passwords appliance. 
+This app is provided as-is with no support. This is a private project and has not releation to One Identity or is an official One Identity product, except that the app requires access to an instance of the Safeguard Privileged Passwords appliance. 
 
 ## Overview
 
@@ -103,6 +103,8 @@ Main dependencies used by the app:
 - `pointycastle`
 - `file_picker`
 - `intl`
+
+- requires access to an instance of the "One Identity Safeguard Privileged Password" appliance
 
 ## Notes
 
